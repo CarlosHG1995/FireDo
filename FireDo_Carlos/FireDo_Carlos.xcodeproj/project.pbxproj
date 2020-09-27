@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1CAA1D6789EBD1C56AD125C /* Pods_FireDo_Carlos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908C37615F1271A127525C3F /* Pods_FireDo_Carlos.framework */; };
+		D32094682494489500E46966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32094672494489500E46966 /* AppDelegate.swift */; };
+		D320946A2494489500E46966 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32094692494489500E46966 /* SceneDelegate.swift */; };
+		D320946F2494489500E46966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320946D2494489500E46966 /* Main.storyboard */; };
+		D32094712494489900E46966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32094702494489900E46966 /* Assets.xcassets */; };
+		D32094742494489900E46966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32094722494489900E46966 /* LaunchScreen.storyboard */; };
+		D320947F2494490B00E46966 /* logo-firebase.png in Resources */ = {isa = PBXBuildFile; fileRef = D320947B2494490A00E46966 /* logo-firebase.png */; };
+		D32094802494490B00E46966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D320947C2494490B00E46966 /* GoogleService-Info.plist */; };
+		D32094812494490B00E46966 /* grups_people.png in Resources */ = {isa = PBXBuildFile; fileRef = D320947D2494490B00E46966 /* grups_people.png */; };
+		D32094822494490B00E46966 /* icon_photos.png in Resources */ = {isa = PBXBuildFile; fileRef = D320947E2494490B00E46966 /* icon_photos.png */; };
+		D320948C249461A300E46966 /* ViewController_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320948B249461A300E46966 /* ViewController_Login.swift */; };
+		D320948E2494652D00E46966 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320948D2494652D00E46966 /* AuthenticationService.swift */; };
+		D36156E524991B150035E4E5 /* GruposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36156E424991B150035E4E5 /* GruposTableViewController.swift */; };
+		D38A13FE2496DEA500A4B7FA /* ServicioDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A13FD2496DEA500A4B7FA /* ServicioDatabase.swift */; };
+		D38A14002496F0D500A4B7FA /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A13FF2496F0D500A4B7FA /* Group.swift */; };
+		D38A140224971F2000A4B7FA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A140124971F2000A4B7FA /* MenuViewController.swift */; };
+		D38A140424971F4B00A4B7FA /* CrearGrupoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A140324971F4B00A4B7FA /* CrearGrupoViewController.swift */; };
+		D38A140C249877D800A4B7FA /* ColeccionGruposViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A140B249877D800A4B7FA /* ColeccionGruposViewCell.swift */; };
+		D38A140E24989DF300A4B7FA /* TareasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A140D24989DF300A4B7FA /* TareasViewController.swift */; };
+		D38A141024989E1B00A4B7FA /* Tareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A140F24989E1B00A4B7FA /* Tareas.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FDBF1EB28A6EABEAD6499D4 /* Pods-FireDo_Carlos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireDo_Carlos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireDo_Carlos/Pods-FireDo_Carlos.debug.xcconfig"; sourceTree = "<group>"; };
+		908C37615F1271A127525C3F /* Pods_FireDo_Carlos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireDo_Carlos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C44FB8CF1EB71B8A69DF90 /* Pods-FireDo_Carlos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireDo_Carlos.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireDo_Carlos/Pods-FireDo_Carlos.release.xcconfig"; sourceTree = "<group>"; };
+		D32094642494489500E46966 /* FireDo_Carlos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireDo_Carlos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32094672494489500E46966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32094692494489500E46966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D320946E2494489500E46966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32094702494489900E46966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32094732494489900E46966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32094752494489900E46966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D320947B2494490A00E46966 /* logo-firebase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-firebase.png"; sourceTree = "<group>"; };
+		D320947C2494490B00E46966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D320947D2494490B00E46966 /* grups_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grups_people.png; sourceTree = "<group>"; };
+		D320947E2494490B00E46966 /* icon_photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_photos.png; sourceTree = "<group>"; };
+		D320948B249461A300E46966 /* ViewController_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Login.swift; sourceTree = "<group>"; };
+		D320948D2494652D00E46966 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		D36156E424991B150035E4E5 /* GruposTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GruposTableViewController.swift; sourceTree = "<group>"; };
+		D38A13FD2496DEA500A4B7FA /* ServicioDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicioDatabase.swift; sourceTree = "<group>"; };
+		D38A13FF2496F0D500A4B7FA /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		D38A140124971F2000A4B7FA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D38A140324971F4B00A4B7FA /* CrearGrupoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearGrupoViewController.swift; sourceTree = "<group>"; };
+		D38A140B249877D800A4B7FA /* ColeccionGruposViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColeccionGruposViewCell.swift; sourceTree = "<group>"; };
+		D38A140D24989DF300A4B7FA /* TareasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareasViewController.swift; sourceTree = "<group>"; };
+		D38A140F24989E1B00A4B7FA /* Tareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tareas.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32094612494489500E46966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CAA1D6789EBD1C56AD125C /* Pods_FireDo_Carlos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F5C8EB880DB53286904402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FDBF1EB28A6EABEAD6499D4 /* Pods-FireDo_Carlos.debug.xcconfig */,
+				A9C44FB8CF1EB71B8A69DF90 /* Pods-FireDo_Carlos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90C00ACB45672A82B06A8FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908C37615F1271A127525C3F /* Pods_FireDo_Carlos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D320945B2494489500E46966 = {
+			isa = PBXGroup;
+			children = (
+				D32094662494489500E46966 /* FireDo_Carlos */,
+				D32094652494489500E46966 /* Products */,
+				55F5C8EB880DB53286904402 /* Pods */,
+				90C00ACB45672A82B06A8FCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D32094652494489500E46966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32094642494489500E46966 /* FireDo_Carlos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32094662494489500E46966 /* FireDo_Carlos */ = {
+			isa = PBXGroup;
+			children = (
+				D32094832494530500E46966 /* Controller */,
+				D32094842494530F00E46966 /* Model */,
+				D32094852494531900E46966 /* View */,
+				D38A13FC2496DAC900A4B7FA /* Service */,
+				D32094862494532600E46966 /* Supporting Files */,
+				D320947C2494490B00E46966 /* GoogleService-Info.plist */,
+				D320947D2494490B00E46966 /* grups_people.png */,
+				D320947E2494490B00E46966 /* icon_photos.png */,
+				D320947B2494490A00E46966 /* logo-firebase.png */,
+				D32094692494489500E46966 /* SceneDelegate.swift */,
+				D320946D2494489500E46966 /* Main.storyboard */,
+				D32094752494489900E46966 /* Info.plist */,
+			);
+			path = FireDo_Carlos;
+			sourceTree = "<group>";
+		};
+		D32094832494530500E46966 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D38A140324971F4B00A4B7FA /* CrearGrupoViewController.swift */,
+				D36156E424991B150035E4E5 /* GruposTableViewController.swift */,
+				D320948B249461A300E46966 /* ViewController_Login.swift */,
+				D38A140124971F2000A4B7FA /* MenuViewController.swift */,
+				D38A140D24989DF300A4B7FA /* TareasViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D32094842494530F00E46966 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D38A13FF2496F0D500A4B7FA /* Group.swift */,
+				D38A140F24989E1B00A4B7FA /* Tareas.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D32094852494531900E46966 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D38A140B249877D800A4B7FA /* ColeccionGruposViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D32094862494532600E46966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32094672494489500E46966 /* AppDelegate.swift */,
+				D32094702494489900E46966 /* Assets.xcassets */,
+				D32094722494489900E46966 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D38A13FC2496DAC900A4B7FA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D320948D2494652D00E46966 /* AuthenticationService.swift */,
+				D38A13FD2496DEA500A4B7FA /* ServicioDatabase.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32094632494489500E46966 /* FireDo_Carlos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32094782494489900E46966 /* Build configuration list for PBXNativeTarget "FireDo_Carlos" */;
+			buildPhases = (
+				0DCEAE0691988AFB09053DE3 /* [CP] Check Pods Manifest.lock */,
+				D32094602494489500E46966 /* Sources */,
+				D32094612494489500E46966 /* Frameworks */,
+				D32094622494489500E46966 /* Resources */,
+				FB492389E5892EF78509F9F2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireDo_Carlos;
+			productName = FireDo_Carlos;
+			productReference = D32094642494489500E46966 /* FireDo_Carlos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D320945C2494489500E46966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = UPV;
+				TargetAttributes = {
+					D32094632494489500E46966 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D320945F2494489500E46966 /* Build configuration list for PBXProject "FireDo_Carlos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D320945B2494489500E46966;
+			productRefGroup = D32094652494489500E46966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32094632494489500E46966 /* FireDo_Carlos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32094622494489500E46966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32094742494489900E46966 /* LaunchScreen.storyboard in Resources */,
+				D32094712494489900E46966 /* Assets.xcassets in Resources */,
+				D32094802494490B00E46966 /* GoogleService-Info.plist in Resources */,
+				D32094822494490B00E46966 /* icon_photos.png in Resources */,
+				D320946F2494489500E46966 /* Main.storyboard in Resources */,
+				D32094812494490B00E46966 /* grups_people.png in Resources */,
+				D320947F2494490B00E46966 /* logo-firebase.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DCEAE0691988AFB09053DE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireDo_Carlos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB492389E5892EF78509F9F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireDo_Carlos/Pods-FireDo_Carlos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireDo_Carlos/Pods-FireDo_Carlos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireDo_Carlos/Pods-FireDo_Carlos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32094602494489500E46966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320948C249461A300E46966 /* ViewController_Login.swift in Sources */,
+				D32094682494489500E46966 /* AppDelegate.swift in Sources */,
+				D38A140424971F4B00A4B7FA /* CrearGrupoViewController.swift in Sources */,
+				D38A141024989E1B00A4B7FA /* Tareas.swift in Sources */,
+				D320946A2494489500E46966 /* SceneDelegate.swift in Sources */,
+				D38A140224971F2000A4B7FA /* MenuViewController.swift in Sources */,
+				D38A14002496F0D500A4B7FA /* Group.swift in Sources */,
+				D38A140E24989DF300A4B7FA /* TareasViewController.swift in Sources */,
+				D38A13FE2496DEA500A4B7FA /* ServicioDatabase.swift in Sources */,
+				D36156E524991B150035E4E5 /* GruposTableViewController.swift in Sources */,
+				D38A140C249877D800A4B7FA /* ColeccionGruposViewCell.swift in Sources */,
+				D320948E2494652D00E46966 /* AuthenticationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D320946D2494489500E46966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D320946E2494489500E46966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32094722494489900E46966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32094732494489900E46966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32094762494489900E46966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32094772494489900E46966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32094792494489900E46966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDBF1EB28A6EABEAD6499D4 /* Pods-FireDo_Carlos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireDo_Carlos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upv.epsa.FireDo-Carlos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D320947A2494489900E46966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C44FB8CF1EB71B8A69DF90 /* Pods-FireDo_Carlos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireDo_Carlos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upv.epsa.FireDo-Carlos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D320945F2494489500E46966 /* Build configuration list for PBXProject "FireDo_Carlos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32094762494489900E46966 /* Debug */,
+				D32094772494489900E46966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32094782494489900E46966 /* Build configuration list for PBXNativeTarget "FireDo_Carlos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32094792494489900E46966 /* Debug */,
+				D320947A2494489900E46966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D320945C2494489500E46966 /* Project object */;
+}
